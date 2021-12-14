@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bebas+Neue&family=Indie+Flower&family=Roboto+Mono:wght@400;600&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;600;700&display=swap');
+
+/*  font-family: 'Amatic SC', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Jura', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    /* background-image: url(https://i0.wp.com/i.redd.it/mbkacdfqhn901.jpg);*/
+    /* background-image: url("background.jpg");
+    background-size: 100%; */
+    
+    font-family:  'Jura', sans-serif;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #2f6c93;
+
+    
+}
+
+.header-content {
+    display: flex;
+    flex-wrap: row;
+
+}
+
+
+
+.logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 50px;
+
+}
+
+.logo-img img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.logo-text a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    line-height: 1.1;
+    margin-bottom: 5px;
+}
+
+.logo-text a h1 {
+    font-size: 36px;
+    color: #f4b91d;
+    font-weight: bold;
+}
+
+.logo-text a p{
+    font-size: 12px;
+}
+
+.header-menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+
+/* .menu a{
+    padding: 0 20px 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-left: 2px solid white;
+    border-radius: 40%;
+}
+
+.menu a:hover {
+    color: plum;
+    border-color:  plum;
+}
+
+.menu a:active{
+    color: pink;
+    border-color: pink;
+} */
+
+.account {
+    padding: 0 50px 0 100px;
+}
+
+
+.account a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+.content{
+    margin-top: 50px;
+/*    background: #2f6d93a1;*/
+    background: #fff;
+
+
+}
+
+
+.banner {
+    width: 99%;
+    margin-top: 2%;
+    padding-bottom: 0.35%;
+    border-radius: 1%;
+}
+
+.banner img{
+    width: 100%;
+    max-height: 600px;
+
+}
+
+.banner ul li {
+    position: relative;
+}
+
+.banner ul li h1 {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    color: white;
+    font-size: 96px;
+    text-shadow: violet;
+}
+
+.unslider-nav {
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    top: -30px;
+}
+
+.dop-content {
+    margin-top: 50px;
+}
+
+.dop-content-h1 {
+    background: #2f6d93a1;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.design {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.design img {
+    width: 50%;
+}
+
+.design h1 {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.design-p {
+    text-align: left;
+}
+
+/* .feedback {
+    background: red;
+    width: 1200px;
+} */
+
+.feed-top {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-left: 3px solid #2f6d93a1;
+    border-radius: 10%;
+}
+
+.feed-top img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #2f6d93a1;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+.feed-end {
+    width: 1150px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.feed-end img {
+    width: 50%;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.mnogo-fotok {
+    display: flex;
+}
+
+
+/* ----- Личный кабинет ----- */
+
+.content-acc {
+    display: flex;
+    justify-content: start;
+    padding: 20px 2.5%;
+    color: white;
+
+}
+
+.content-acc input {
+    color:darkblue;
+    font-family:  'Jura', sans-serif
+}
+
+.account-settings { 
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.account-settings img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+
+.acc-sub {
+    padding: 10px 30px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5%;
+    background: lightgreen;
+}
+
+.acc-set {
+    padding: 10px 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5%;
+    background: lightskyblue;
+}
+
+.exit-sub {
+    padding: 10px 65px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5%;
+    background: lightcoral;
+
+}
+
+.content-feedback {
+    width: 70%;
+}
+
+.feedback-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .feedback-top h1 {
+ 
+} */
+
+.feed-sub {
+    padding: 10px 65px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5%;
+    background: lightseagreen;
+}
+
+.feedback-content {
+    height: 81%;
+    background: white;
+
+}
+
+/* ---------------------------- */
+
+.footer {
+    text-align: center;
+    background: #2f6c93;
+    margin-top: 50px;
+}
+
+.footer-info {
+
+    padding: 20px 0 40px 0;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+
+}
+
+.footer-info p{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.footer-info img{
+    margin-top: 30px;
+    width: 10%;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* .footer-info-social a img{
+    width: 30%;
+} */
+
+
+.footer-end a {
+    text-decoration: none;
+}
+
+.footer-end a p {
+    color: pink;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 1.6em;
+    
+}
+
+.footer-end a img{
+    width: 2.5%;
+    border: 1px solid pink;
+    border-radius: 50%;
+    margin-right: 5px;
+    
+}
+
+.image-control {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 5px;
+    padding-right: 30px;
+}
+/*@media screen and (min-width:1080px){
+	.feed-end {
+		padding-right: 200px;
+	}
+}
+*/
+@media screen and (max-width:768px){
+
+	.container {
+		max-width: 95%;
+		margin: 0 auto;
+	}
+
+	.feed-end {
+		padding-right: none;
+	}
+}
